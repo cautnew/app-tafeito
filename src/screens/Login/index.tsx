@@ -14,7 +14,6 @@ import { VisibilityOff, Visibility } from '@mui/icons-material'
 import {CustomizedCardHeader} from './styles';
 
 const Login = () => {
-  
   const [isButtonActive, setIsButtonActive] = useState(true);
   const [username, setUsername] = useState<string|null>(null)
   const [password, setPassword] = useState<string|null>(null)
