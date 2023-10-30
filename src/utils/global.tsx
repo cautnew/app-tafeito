@@ -15,7 +15,7 @@ export type GlobalContent = {
 };
 
 export const MyGlobalContext = createContext<GlobalContent>({
-  isEditingTask: false, // set a default value
+  isEditingTask: false,
   setIsEditingTask: () => {},
   selectedTaskInput: null,
   setSelectedTaskInput: () => {},

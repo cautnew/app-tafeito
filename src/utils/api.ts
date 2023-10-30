@@ -1,5 +1,3 @@
-
-
 export const base_api = 'http://127.0.0.1:3000';
 export const url_usuarios_autenticado =  `/usuarios/autenticado`
 export const url_login = `/usuarios/login`; 

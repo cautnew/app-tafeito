@@ -3,8 +3,6 @@ export type Categoria = {
   descricao: string;
 };
 
-
-
 type IdTarefa = number;
 
 export type Tarefa = {

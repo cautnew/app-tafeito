@@ -127,9 +127,6 @@ const Task = (props: TaskProps) => {
             await api.delete(custom_task_url);
           }
   
-          //o id da task está na lista de tarefas deletadas?
-          //se sim, deletar task
-          //se não, não fazer nada
           setRefectchTaskStatus(refetchtaskStatus + 1);
         },
       });
@@ -171,9 +168,6 @@ const Task = (props: TaskProps) => {
         secondaryAction={
           <TaskActions
             deleteTask={() => {
-              // if (openedDialog === false) {
-              //   setOpenedDialog(true);
-              // }
               deleteTask()
             }}
             editTask={() => {

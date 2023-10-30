@@ -42,7 +42,6 @@ const ProjectTasks = (props: ProjectTasksProps) => {
 
   const { enqueueSnackbar } = useSnackbar();
 
-
   useEffect(() => {
     if (selectedCat !== null && projectText !== "") {
       setIsValidForm(true);
@@ -70,7 +69,6 @@ const ProjectTasks = (props: ProjectTasksProps) => {
  
     setIsLoading(true);
     const payload = {
-      // your post data goes here
       descricao: `Categoria do projeto: ${currentCategory?.descricao}
       Projeto: ${projectText}
       `,
